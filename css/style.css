@@ -71,10 +71,14 @@ a {
    gap: 8em;
 }
 
+.btn-primary {
+    border-radius: 20px;
+}
+
 
 .phone {
     width: 500px;
-    
+    margin-left: 10em;
     
 }
  /* 
@@ -98,8 +102,9 @@ a {
     background-color: #fafaf7;
     border: 1px solid #f3f3e1;
     box-shadow: 1px 1px 20px -10px rgba(0,0,0,.7);
-    margin-top: 3em;
+    margin-top: 1em;
     padding: 8em;
+    padding-bottom: 0em;
 }
 
 .container {
@@ -133,6 +138,7 @@ p {
 .second-container {
     background-color: #c1ecc3;
     text-align: center;
+    
 }
 .second-banner-img {
     width: 100px;
@@ -142,10 +148,112 @@ p {
     padding: 1em 1em;
 }
 
+.third-img {
+    width: 600px;
+}
 
+.third-photo {
+    width: 80px;
+}
 
+.third-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+}
 
+.third-container {
+    display: inline-block;
+    text-align: center;
+}
 
+.third-container h3 {
+    font-size: 2em;
+    padding: 1em;
+}
 
+.third-container p {
+    margin-top: -2em;
+    padding-bottom: 2em;
+}
 
+.fourth-rond {
+    width: 450px;
+    height: 450px;
+    background-image:linear-gradient(45deg,#d3959b,#bfe6ba,#29932e,#4bc0c8);
+    border-radius: 50%;
+}
 
+.fourth-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.fourth-text {
+    width: 40%;
+}
+
+.fourth-text h3 {
+    font-size: 4em;
+}
+
+.fifth-banner {
+    background-image: url("/img/fin-photo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 0.2em;
+}
+
+.fifth-banner h3 {
+    font-size: 4em;
+}
+
+.fifth-btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    opacity: .6;
+    margin-top: 1.5em;
+}
+
+.fifth-banner {
+    padding-left: 3em;
+    padding-top: 5em;
+}
+
+.sixth-container {
+    background-color: #c1ecc3;
+    text-align: center;
+    height: 160px;
+}
+.sixth-container {
+    padding-top: 2em;
+}
+
+.sixth {
+    margin-top: 1em;
+    border-radius: 30px;
+}
+
+.sixth-container h3 {
+    font-size: 2em
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-container p {
+    margin-top: 2em;
+  
+}
+.second-p {
+    margin-bottom: 2em;
+}
